@@ -15,9 +15,41 @@ const menuData: Menu[] = [
   },
   {
     id: 33,
-    title: "Blog",
-    path: "/blog",
+    title: "Categories",
     newTab: false,
+    submenu: [
+      {
+        id: 331,
+        title: "Médical et Santé",
+        path: "/blog",
+        newTab: false,
+      },
+      {
+          id: 332,
+          title: "Défenses des animaux",
+          path: "/blog1",
+          newTab: false,
+      },
+     {
+        id: 333,
+        title: "Soutien aux orphelins",
+        path: "/blog",
+        newTab: false,
+     },
+     {
+        id: 334,
+        title: "écoles et éducation",
+        path: "/blog",
+        newTab: false,
+     },
+     {
+        id: 335,
+        title: "Aide aux sinistrés",
+        path: "/blog",
+        newTab: false,
+      },
+    
+  ],
   },
   {
     id: 3,
