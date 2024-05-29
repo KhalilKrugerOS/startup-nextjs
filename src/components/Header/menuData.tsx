@@ -75,8 +75,33 @@ const menuData: Menu[] = [
         newTab: false,
       },
       {
-        id: 43,
-        title: "Blog Grid Page",
+      
+       id: 431,
+       title: "Médical et Santé",
+       path: "/blog",
+       newTab: false,
+      },
+     {
+       id: 432,
+       title: "Défenses des animaux",
+       path: "/blog1",
+       newTab: false,
+     },
+     {
+      id: 433,
+      title: "Soutien aux orphelins",
+      path: "/blog",
+      newTab: false,
+     },
+     {
+       id: 434,
+       title: "écoles et éducation",
+       path: "/blog",
+       newTab: false,
+      },
+      {
+        id: 435,
+        title: "Aide aux sinistrés",
         path: "/blog",
         newTab: false,
       },
